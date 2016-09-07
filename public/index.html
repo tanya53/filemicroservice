@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meata charset ="UTF-8">
+    <title>microserver</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/public/css/main.css">
+ 
+
+</head>
+<body>
+    <h1>File Metadata Microservice</h1>
+    <h2>freeCodeCamp - API Project</h2>
+    <p>Submit a file to view its file size in bytes</p>
+    <form method ="post" action="/uploadFile" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload File">
+    </form>
+    <div id="testfile"></div>
+	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="/controllers/clientside.js"></script>
+    <script type="text/javascript" src="/common/ajax-functions.js"></script>
+
+</body>
+</html>
